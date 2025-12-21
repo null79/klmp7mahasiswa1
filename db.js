@@ -11,7 +11,7 @@ const db = new sqlite3.Database(dbPath, (err) => {
   }
 });
 
-// bikin tabel kalau belum ada
+// bikin tabel 
 db.serialize(() => {
   db.run(
     `

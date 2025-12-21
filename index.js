@@ -1,6 +1,8 @@
+// db.js dieksekusi & tabel dibuat
 const express = require("express");
 const vendorARouter = require("./routes/vendorA.routes");
-require("./db"); // ini supaya db.js dieksekusi & tabel dibuat
+require("./db"); 
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
